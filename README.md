@@ -34,3 +34,44 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## Comands
+Criar projeto next:
+
+PS C:\Users\geu_p\OneDrive\Área de Trabalho\full stack week\barber> npx create-next-app@latest .
+√ Would you like to use TypeScript? ...  Yes
+√ Would you like to use ESLint? ... Yes
+√ Would you like to use Tailwind CSS? ... Yes
+√ Would you like to use `src/` directory? ...No 
+√ Would you like to use App Router? (recommended) Yes
+√ Would you like to customize the default import alias (@/*)? ... No 
+
+## 
+Instalar prisma e definir o nosso banco de dados criando a pasta prisma
+npm i prisma --save-dev
+npx prisma init --datasource-provider postgresql
+
+## 
+Formatar o schema para que nao de erro :
+npx prisma format
+
+## 
+# Migration
+Criando a primeira migração para criar as tabelas no banco de dados:
+npx prisma migrate dev --name add_initial_tables
+
+## 
+Pra ver o bancos de dados rodando localmente:
+npx prisma studio
+
+ele roda em http://localhost:5555
+
+
+## Convenção de commits 
+Fix - Correção de bug
+Chore - Relacionado a setup
+Feat - Algo novo
+
+## 
+
+
