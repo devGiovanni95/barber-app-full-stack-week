@@ -88,6 +88,31 @@ criamos uma referencia em package.json
 
 
 ## 
+usamos a biblioteca de ui para acerelar o desenvolvimento
+https://ui.shadcn.com/
+
+instalar 
+npx shadcn-ui@latest init
+
+√ Which style would you like to use? » Default
+√ Which color would you like to use as base color? » Slate
+√ Would you like to use CSS variables for colors? ... yes
+
+Mudamos components.json
+  "aliases": {
+    "components": "@/components",
+    "utils": "@/lib/utils"
+  }
+
+  para
+    "aliases": {
+    "components": "@/app/_components",
+    "utils": "@/app/_lib/utils"
+  }
+
+  e movemos as pasta para ficar dentro de app
+
+o _ na frente da pasta e pra indicar que não é uma pasta de rota 
 ## 
 ## 
 ## 
