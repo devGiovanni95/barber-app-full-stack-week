@@ -73,5 +73,25 @@ Chore - Relacionado a setup
 Feat - Algo novo
 
 ## 
+Adicionado o seed na pasta prisma
+criamos uma referencia em package.json
+  "prisma":{
+    "seed":"ts-node prisma/seed.ts"
+  },
+
+  e primeiro adicionamos a biblioteca ts node:
+  npm i -D ts-node
+
+  executamos o comando para popular no banco de dados :
+  npx prisma db seed
+
+
+
+## 
+## 
+## 
+## 
+## 
+## 
 
 
