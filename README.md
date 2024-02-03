@@ -114,7 +114,12 @@ Mudamos components.json
 
 o _ na frente da pasta e pra indicar que não é uma pasta de rota 
 ## 
+sfc
 ## 
+adicionando o card da biblioteca shadnc:
+npx shadcn-ui@latest add card
+
+ele cria uma pasta components e cria uma pasta ui 
 ## 
 ## 
 ## 
